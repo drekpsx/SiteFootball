@@ -133,3 +133,38 @@ footer{
     transition: 0.5s;
 }
 
+@media screen and (max-width: 1000px){
+    body{
+        max-width: 400px;
+    }
+    .bloc1{
+        max-width: 400px;
+        overflow:hidden;
+    }
+    .bloc1 .lireplus{
+        position: relative;
+        top:5px;
+        left:0px;
+        margin-left:10px;
+        padding: 7px 28px;
+        font-size: 10px;
+    }
+    .imagefoot{
+        position: relative;
+        right:28px
+    }
+    .imageligue1{
+        position: relative;
+        right:25px;
+    }
+    .bloc1 .lireplus2{
+        position: relative;
+        top:5px;
+        left:0px;
+        margin-left:10px;
+        padding: 7px 28px;
+        font-size: 10px;
+    }
+}
+
+
